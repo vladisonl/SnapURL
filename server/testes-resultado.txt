@@ -1,0 +1,40 @@
+﻿node.exe : npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+No C:\Program Files\nodejs\npm.ps1:29 caractere:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm verbose cli...\bin\npm-cli.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm info using npm@10.9.2
+npm info using node@v22.16.0
+npm verbose title npm test
+npm verbose argv "test" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\vladison\AppData\Local\npm-cache\_logs\2026-05-31T13_03_09_260Z-
+npm verbose logfile C:\Users\vladison\AppData\Local\npm-cache\_logs\2026-05-31T13_03_09_260Z-debug-0.log
+
+> shorturl_api@2.0.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:14524) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS __tests__/url.unit.test.js
+(node:11048) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS __tests__/api.integration.test.js
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       42 passed, 42 total
+Snapshots:   0 total
+Time:        1.568 s, estimated 3 s
+Ran all test suites.
+npm verbose cwd C:\Users\vladison\Downloads\projeto-comparacao\SnapURL\server
+npm verbose os Windows_NT 10.0.26200
+npm verbose node v22.16.0
+npm verbose npm  v10.9.2
+npm verbose exit 0
+npm info ok
