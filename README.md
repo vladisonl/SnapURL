@@ -18,9 +18,9 @@ Aplicação completa de encurtamento de URLs desenvolvida como projeto acadêmic
 | Nome | Função |
 |------|--------|
 | Vladison Lucas | Backend & Banco de Dados & Frontend |
-| Maria | Frontend |
-| Tomaz | Backend & API |
-| Ingryd | Infra & DevOps |
+| Maria |Infra & DevOps |
+| Tomaz | Infra & DevOps |
+| Ingryd | Frontend |
 
 ---
 
